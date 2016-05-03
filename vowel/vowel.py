@@ -1,7 +1,9 @@
 vowels = "aeiou"
 example = "my name is anisha"
+a = []
 for i in example:
 	if i.lower() in vowels:
-		print i
-a =[]
-a.append(i)
+		a.append(i)
+print a
+
+
